@@ -1,0 +1,69 @@
+<!doctype html>
+<html lang="es">
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<title>El Buen Pollo | Asados y Fritos</title>
+	<link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet">
+	<style>
+		body { background: #fff8ef; }
+		.hero { background: linear-gradient(135deg, #8b1e1e, #e85d04); color: white; }
+		.hero-img { font-size: 7rem; }
+		.card { border: 0; box-shadow: 0 4px 16px #00000012; }
+		.price { color: #c2410c; font-weight: 700; }
+	</style>
+</head>
+<body>
+	<nav class="navbar navbar-expand-lg navbar-dark bg-dark sticky-top">
+		<div class="container">
+			<a class="navbar-brand fw-bold" href="#inicio">🍗 El Buen Pollo</a>
+			<button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#menu" aria-label="Abrir menú">
+				<span class="navbar-toggler-icon"></span>
+			</button>
+			<div class="collapse navbar-collapse" id="menu">
+				<ul class="navbar-nav ms-auto align-items-lg-center">
+					<li class="nav-item"><a class="nav-link" href="#inicio">Inicio</a></li>
+					<li class="nav-item"><a class="nav-link" href="#menu-productos">Menú</a></li>
+					<li class="nav-item"><a class="nav-link" href="#nosotros">Nosotros</a></li>
+					<li class="nav-item"><a class="nav-link" href="#contacto">Contacto</a></li>
+					<li class="nav-item ms-lg-3"><a class="btn btn-warning fw-bold" href="#pedir">Pedir ahora</a></li>
+				</ul>
+			</div>
+		</div>
+	</nav>
+
+	<header id="inicio" class="hero py-5">
+		<div class="container py-4">
+			<div class="row align-items-center">
+				<div class="col-md-7">
+					<span class="badge bg-warning text-dark mb-3">Sabor casero todos los días</span>
+					<h1 class="display-4 fw-bold">El pollo que reúne a todos.</h1>
+					<p class="lead">Pollos asados y fritos, doraditos y preparados al momento con ingredientes frescos.</p>
+					<a href="#menu-productos" class="btn btn-light btn-lg fw-bold">Ver nuestro menú</a>
+				</div>
+				<div class="col-md-5 text-center hero-img" aria-label="Pollo asado">🍗</div>
+			</div>
+		</div>
+	</header>
+
+	<main>
+		<section id="menu-productos" class="container py-5">
+			<div class="text-center mb-4">
+				<h2 class="fw-bold">Nuestros favoritos</h2>
+				<p class="text-muted">Elige tu sabor y disfruta de una comida deliciosa.</p>
+			</div>
+			<div class="row g-4">
+				<div class="col-md-4"><div class="card h-100 p-4 text-center"><div class="display-3">🍗</div><h3>Pollo asado</h3><p>Jugoso, dorado y sazonado con nuestra receta especial.</p><div class="price fs-4">$12.99</div><a href="#pedir" class="btn btn-outline-danger mt-3">Ordenar</a></div></div>
+				<div class="col-md-4"><div class="card h-100 p-4 text-center"><div class="display-3">🍖</div><h3>Pollo frito</h3><p>Crujiente por fuera, tierno por dentro y lleno de sabor.</p><div class="price fs-4">$10.99</div><a href="#pedir" class="btn btn-outline-danger mt-3">Ordenar</a></div></div>
+				<div class="col-md-4"><div class="card h-100 p-4 text-center"><div class="display-3">🍟</div><h3>Combo familiar</h3><p>Pollo, papas, ensalada y bebidas para compartir.</p><div class="price fs-4">$24.99</div><a href="#pedir" class="btn btn-outline-danger mt-3">Ordenar</a></div></div>
+			</div>
+		</section>
+
+		<section id="nosotros" class="bg-white py-5"><div class="container text-center"><h2 class="fw-bold">Hecho con cariño</h2><p class="lead mb-0">Cocinamos cada pedido fresco para que recibas siempre el mejor sabor.</p></div></section>
+		<section id="pedir" class="container py-5 text-center"><h2 class="fw-bold">¿Listo para disfrutar?</h2><p>Haz tu pedido por teléfono o visítanos.</p><a href="tel:+34900000000" class="btn btn-danger btn-lg">📞 Pedir: 900 000 000</a></section>
+	</main>
+
+	<footer id="contacto" class="bg-dark text-white text-center py-4"><p class="mb-1">El Buen Pollo · Sabor que se comparte</p><small>© 2024 Todos los derechos reservados</small></footer>
+	<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"></script>
+</body>
+</html>
